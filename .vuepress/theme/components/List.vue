@@ -2,7 +2,7 @@
   <div>
     <div class="heading"> <h1> {{ listTitle }} </h1> </div>
     <div class="post-container" v-for="post in posts">
-      <div>
+      <div v-if="post.frontmatter.type === 'Article'">
         <a v-bind:href="post.path"> <h2> {{ post.title }} </h2> </a>
       </div>
     </div>

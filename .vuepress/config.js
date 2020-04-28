@@ -1,28 +1,16 @@
 module.exports = {
   title: 'Basic Blog', // Title for the site. This will be displayed in the navbar.
   theme: 'local', //'@vuepress/theme-blog',
-  // plugins: [
-  //   [　'@vuepress/blog', {
-  //       directories: [
-  //       {
-  //         // Unique ID of current classification
-  //         id: 'post',
-  //         // Target directory
-  //         dirname: '_posts',
-  //         // Path of the `entry page` (or `list page`)
-  //         path: '/',
-  //         itemPermalink: '/post/:year/:month/:day/:slug',
-  //       },
-  //       ],
-  //     },
-  //   ],
-  // ],
+  base: '/basic_vue_blog/',
   themeConfig: {
     // Please keep looking down to see the available options.
     sidebar: [
-      ['/', 'Home'],
+      // ['/', 'Home'],
       ['/_posts/', 'Posts']
     ],
-    navbar: true
+    navbar: true,
+    nav: [
+      { text: 'About me!', link: 'http://www.theallenc.com' }
+    ]
   }
 }

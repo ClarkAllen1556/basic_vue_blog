@@ -18,7 +18,7 @@
       </template>
     </Sidebar>
 
-    <!-- <Home v-if="$page.frontmatter.home" /> -->
+    <Home v-if="$page.frontmatter.home" />
     <Page :sidebar-items="sidebarItems">
       <template #top>
         <slot name="page-top" />

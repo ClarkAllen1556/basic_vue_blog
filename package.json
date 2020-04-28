@@ -1,7 +1,14 @@
 {
+  "author": {
+    "name": "AC",
+    "url": "http://www.theallenc.com"
+  },
+  "repository": {
+    "url": "https://github.com/ClarkAllen1556/basic_vue_blog"
+  },
   "scripts": {
     "dev": "vuepress dev --no-clear-screen ./",
-    "build": "vuepress build --no-clear-screen ./"
+    "build": "vuepress build ./"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",

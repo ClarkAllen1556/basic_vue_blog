@@ -1,11 +1,7 @@
 ---
-# home: true
-heroImage: /hero.png
-heroText: Hero Title
-tagline: Hero subtitle
-actionText: Get Started →
-actionLink: /_posts/
-# layout: HomeLayout
+home: false
+title: Welcome
+layout: Layout
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
@@ -15,3 +11,7 @@ features:
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
+## Hello There
+
+Welcome to my blog.

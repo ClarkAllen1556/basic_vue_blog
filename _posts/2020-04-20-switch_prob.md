@@ -1,5 +1,6 @@
 ---
 title: My Switch Problem
+type: Article
 lang: en-US
 published: 2020-06-01
 meta:
@@ -12,5 +13,3 @@ meta:
 ---
 
 My Switch Joycons broke for no reason.
-
-[Home](/)

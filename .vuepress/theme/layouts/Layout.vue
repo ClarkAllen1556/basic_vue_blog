@@ -18,10 +18,13 @@
       </template>
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
-    <Page v-else :sidebar-items="sidebarItems">
+    <!-- <Home v-if="$page.frontmatter.home" /> -->
+    <Page :sidebar-items="sidebarItems">
       <template #top>
         <slot name="page-top" />
+      </template>
+      <template #post>
+        <slot name="post" />
       </template>
       <template #list>
         <slot name="list" />

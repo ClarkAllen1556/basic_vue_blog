@@ -1,5 +1,5 @@
 ---
 title: Blog Posts
 layout: Layout
-list: true
+type: Listings
 ---

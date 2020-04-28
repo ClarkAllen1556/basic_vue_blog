@@ -2,15 +2,18 @@
   <main class="page">
     <slot name="top" />
 
-    <Content class="theme-default-content" />
-    <PageEdit />
-
-    <slot v-if="$page.frontmatter.list" name="list">
-      <List v-bind:listTitle="$page.frontmatter.title" />
-    </slot>
+    <div class="page-content">
+      <slot v-if="$page.frontmatter.type === 'Article'" name="post">
+        <Post v-bind:postTitle="$page.frontmatter.title" />
+      </slot>
+      <slot v-else-if="$page.frontmatter.type === 'Listings'" name="list">
+        <List v-bind:listTitle="$page.frontmatter.title" />
+      </slot>
+    </div>
 
     <PageNav v-bind="{ sidebarItems }" />
 
+    <PageEdit />
     <slot name="bottom" />
   </main>
 </template>
@@ -20,12 +23,14 @@ import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 
 import List from '@theme/components/List.vue'
+import Post from '@theme/components/Post.vue'
 
 export default {
   components: {
     PageEdit,
     PageNav,
-    List
+    List,
+    Post
   },
   props: ['sidebarItems']
 }
@@ -38,4 +43,9 @@ export default {
   padding-bottom 2rem
   display block
 
+// .list
+//   position absolute
+//   top 50%
+//   right 50%
+//   transform translate(50%, -50%)
 </style>

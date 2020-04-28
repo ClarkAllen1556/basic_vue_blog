@@ -22,6 +22,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       ['/_posts/', 'Posts']
-    ]
+    ],
+    navbar: true
   }
 }

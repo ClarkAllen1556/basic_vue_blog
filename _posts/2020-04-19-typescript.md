@@ -1,5 +1,6 @@
 ---
 title: My first article on TypeScript
+type: Article
 lang: en-US
 published: 2020-04-19
 meta:

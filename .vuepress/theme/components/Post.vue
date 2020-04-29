@@ -2,7 +2,10 @@
   <div>
     <div>
       <div class="post-box">
-        <h1> {{ postTitle }} </h1>
+        <span>
+          <h1> {{ postTitle }} </h1>
+          <h3> - {{ postAuthor ? postAuthor : "anon" }} : {{ (new Date(postDate).toLocaleString()) }} </h3>
+        </span>
         <Content v-if="$page.frontmatter.type === 'Article'" class="theme-default-content" />
       </div>
     </div>
@@ -12,7 +15,9 @@
 <script>
 export default {
   props: [
-    "postTitle"
+    "postTitle",
+    "postAuthor",
+    "postDate"
   ]
 }
 </script>

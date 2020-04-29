@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "vuepress dev --no-clear-screen ./",
-    "build": "vuepress build ./"
+    "build": "vuepress build ./",
+    "debug": "node --nolazy --inspect-brk=9229 vuepress dev --no-clear-screen --no-cache ./",
+    "deploy": "./deploy.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",

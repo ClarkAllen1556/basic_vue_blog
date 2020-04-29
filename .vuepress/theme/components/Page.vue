@@ -4,7 +4,10 @@
 
     <div class="page-content">
       <slot v-if="$page.frontmatter.type === 'Article'" name="post">
-        <Post v-bind:postTitle="$page.frontmatter.title" />
+        <Post
+          v-bind:postTitle="$page.frontmatter.title"
+          v-bind:postAuthor="$page.frontmatter.author"
+          v-bind:postDate="$page.frontmatter.published"/>
       </slot>
       <slot v-else-if="$page.frontmatter.type === 'Listings'" name="list">
         <List v-bind:listTitle="$page.frontmatter.title" />

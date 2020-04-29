@@ -3,7 +3,6 @@ title: Always with the Frontmatter issues
 type: Article
 published: 2020-04-29
 author: Allen
-sidebar: 2
 meta:
   - name: description
     content: First real post on this blog ranting about frontmatter.

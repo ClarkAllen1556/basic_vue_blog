@@ -14,13 +14,6 @@
       </p>
     </header>
 
-    <div v-if="data.features && data.features.length" class="features">
-      <div v-for="(feature, index) in data.features" :key="index" class="feature">
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
-      </div>
-    </div>
-
     <Content class="theme-default-content custom" />
 
     <div v-if="data.footer" class="footer">{{ data.footer }}</div>

@@ -4,13 +4,17 @@ module.exports = {
   base: '/basic_vue_blog/',
   themeConfig: {
     // Please keep looking down to see the available options.
+    lastUpdated: 'Last Updated',
+    search: false,
     sidebar: [
       // ['/', 'Home'],
       ['/_posts/', 'Posts']
     ],
     navbar: true,
     nav: [
-      { text: 'About me!', link: 'http://www.theallenc.com' }
+      { text: 'Posts', link: '/_posts/'},
+      { text: 'About me!', link: 'http://www.theallenc.com' },
+      { text: 'Github repo', link: 'https://clarkallen1556.github.io/basic_vue_blog/' }
     ]
   }
 }

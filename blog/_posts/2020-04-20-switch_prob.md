@@ -1,6 +1,6 @@
 ---
 title: My Switch Problem
-type: Article
+type: article
 lang: en-US
 published: 2020-06-01
 meta:

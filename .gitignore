@@ -1,3 +1,4 @@
 node_modules
 .vscode
-.vuepress/dist
+*dist*
+_old_posts

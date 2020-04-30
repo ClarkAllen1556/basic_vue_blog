@@ -3,7 +3,7 @@
     <slot name="top" />
 
     <div class="page-content">
-      <slot v-if="$page.frontmatter.type === 'Article'" name="post">
+      <slot v-if="$page.frontmatter.type === 'article'" name="post">
         <Post
           v-bind:postTitle="$page.frontmatter.title"
           v-bind:postAuthor="$page.frontmatter.author"

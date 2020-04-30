@@ -1,6 +1,7 @@
 ---
 title: Always with the Frontmatter issues
-type: Article
+type: article
+date: 2020-04-29
 published: 2020-04-29
 author: Allen
 meta:

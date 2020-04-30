@@ -2,9 +2,9 @@
   <div>
     <div class="heading"> <h1> {{ listTitle }} </h1> </div>
     <div class="post-container" v-for="post in posts">
-      <div v-if="post.frontmatter.type === 'Article'">
+      <!-- <div v-if="post.frontmatter.type === 'Article'"> -->
         <a v-bind:href="post.path"> <h2> {{ post.title }} </h2> </a>
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -14,10 +14,10 @@ export default {
   props: ["listTitle"],
   computed: {
     posts() {
-      return this.$site.pages
-        .filter(p => {
-          return p.path.indexOf('/_posts/') >= 0;
-        });
+      console.table(this.$site.pages)
+      return this.$site.pages.filter(p => {
+          return p.frontmatter.type === 'article';
+      });
     },
   }
 }

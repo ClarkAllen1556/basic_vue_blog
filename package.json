@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vuepress dev --no-clear-screen ./blog",
     "build": "vuepress build ./blog",
-    "clean": "rm ./blog/.vuepress/dist",
+    "clean": "rm -rf ./blog/.vuepress/dist",
     "debug": "node --nolazy --inspect-brk=9229 vuepress dev --no-clear-screen --no-cache ./blog",
     "deploy": "./deploy.sh"
   },

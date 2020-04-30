@@ -14,7 +14,6 @@ export default {
   props: ["listTitle"],
   computed: {
     posts() {
-      console.table(this.$site.pages)
       return this.$site.pages.filter(p => {
           return p.frontmatter.type === 'article';
       });

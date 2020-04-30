@@ -12,7 +12,7 @@ module.exports = {
     ],
     navbar: true,
     nav: [
-      { text: 'Posts', link: '/posts/'},
+      { text: 'Posts', link: '/_posts/'},
       { text: 'About me!', link: 'http://www.theallenc.com' },
       { text: 'Github repo', link: 'https://clarkallen1556.github.io/basic_vue_blog/' }
     ]

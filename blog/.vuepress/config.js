@@ -15,7 +15,10 @@ module.exports = {
       { text: 'Posts', link: '/_posts/'},
       { text: 'About me!', link: 'http://www.theallenc.com' },
       { text: 'Github repo', link: 'https://clarkallen1556.github.io/basic_vue_blog/' }
-    ]
+    ],
+    sitemap: {
+      hostname: 'https://clarkallen1556.github.io'
+    }
   },
   plugins: [
     [ "@vuepress/blog", {

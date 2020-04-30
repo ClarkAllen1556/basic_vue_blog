@@ -8,11 +8,11 @@ module.exports = {
     search: false,
     sidebar: [
       // ['/', 'Home'],
-      ['/_posts/', 'Posts']
+      ['/posts/', 'Posts']
     ],
     navbar: true,
     nav: [
-      { text: 'Posts', link: '/_posts/'},
+      { text: 'Posts', link: '/posts/'},
       { text: 'About me!', link: 'http://www.theallenc.com' },
       { text: 'Github repo', link: 'https://clarkallen1556.github.io/basic_vue_blog/' }
     ],
@@ -24,8 +24,8 @@ module.exports = {
     [ "@vuepress/blog", {
       directories: [
         {
-          id: '_posts',
-          dirname: '_posts',
+          id: 'posts',
+          dirname: 'posts',
           path: '/blog/',
           itemPermalink: '/blog/:year/:month/:day/:slug',
           // layout: 'Layout'

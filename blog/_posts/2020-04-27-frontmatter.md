@@ -17,7 +17,7 @@ To begin with, for the first three hours of using frontmatter I thought that it 
 
 When making these posts I need to make sure that the `frontmatter` is following the correct format:
 
-``` text
+``` markdown
 ---
 title: <some title>
 type: <some type> # from me
@@ -34,7 +34,7 @@ meta:
 
 The `meta` variable was tripping me up. From the vue docs:
 
-``` text
+``` markdown
 meta
 
     Type: array

@@ -38,9 +38,10 @@
     }
   };
 </script>
-<style lang="stylus">
+<style scoped lang="stylus">
   .post-container {
     background: #e6e6e6
+    box-shadow: 0 0 10px black
     border-radius: 1em
     padding: 1em
     margin: 1em

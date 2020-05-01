@@ -22,10 +22,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="stylus">
  .post-box {
-   padding: 50px;
-   margin: 25px;
-   box-shadow: 0 0 10px black;
+   background: #e6e6e6
+   border-radius: 1em
+   padding: 50px
+   margin: 25px
+   box-shadow: 0 0 10px black
  }
 </style>

@@ -3,13 +3,8 @@ module.exports = {
   theme: 'local', // '@vuepress/theme-blog'
   // base: '/basic_vue_blog/',
   themeConfig: {
-    // Please keep looking down to see the available options.
     lastUpdated: 'Last Updated',
     search: true,
-    // sidebar: [
-    //   // ['/', 'Home'],
-    //   ['/_posts/', 'Posts']
-    // ],
     navbar: true,
     nav: [
       { text: 'Posts', link: '/_posts/'},
@@ -27,17 +22,7 @@ module.exports = {
           itemPermalink: '/blog/:year/:month/:day/:slug',
           // layout: 'Layout'
         },
-      ],
-      // frontmatters: [
-      //   {
-      //     id: 'tag',
-      //     keys: ['tags'],
-      //     path: '/tag/',
-      //   },
-      // ],
-      // globalPagination: {
-      //   lengthPerPage: 5,
-      // }
+      ]
     }]
   ]
 }

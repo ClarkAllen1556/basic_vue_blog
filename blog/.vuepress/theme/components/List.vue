@@ -41,27 +41,27 @@
 <style scoped lang="stylus">
   .meta {
     font-size: 12px
-    margin-top: 1.5em;
-    margin-right: .3em;
-    padding: .3em;
-    border-radius: 2em;
+    margin-top: 1.5em
+    margin-right: .3em
+    padding: .3em
+    border-radius: 2em
   }
 
   .date {
-    background: $dateBackgroundColor;
-    color: white;
+    background: $dateBackgroundColor
+    color: white
   }
 
   .keyword {
-    background: $metaBackgroundColor;
-    color: white;
-    font-weight: 500;
+    background: $metaBackgroundColor
+    color: white
+    font-weight: 500
   }
 
   .title {
-    margin-bottom: 20px;
-    border-left: solid .4em $accentColor;
-    padding: 20px;
+    margin-bottom: 20px
+    border-left: solid .4em $accentColor
+    padding: 20px
   }
 
   .desc {

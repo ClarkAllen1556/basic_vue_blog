@@ -12,10 +12,8 @@ tags:
   - github-pages
   - surge.sh
 meta:
-  description:
-    content: Let's look at how all the tools used to build this site work together.
-  keywords:
-    content: blogging vuejs vuepress travis ci surge.sh software development
+  - description: Let's look at how all the tools used to build this site work together.
+  - keywords: blogging vuejs vuepress travis ci surge.sh software development
 ---
 
 ## Is this a mess

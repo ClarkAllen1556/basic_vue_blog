@@ -8,6 +8,6 @@ sidebar: 2
 
 ## Hello There
 
-Welcome to my blog.
+Welcome to my blog where I discuss only the basics.
 
 hosted at: [surge.sh](https://onlybasics.surge.sh/)

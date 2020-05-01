@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'Basic Blog', // Title for the site. This will be displayed in the navbar.
+  title: 'Only Basics', // Title for the site. This will be displayed in the navbar.
   theme: 'local', // '@vuepress/theme-blog'
   // base: '/basic_vue_blog/',
   themeConfig: {
     // Please keep looking down to see the available options.
     lastUpdated: 'Last Updated',
     search: true,
-    sidebar: [
-      // ['/', 'Home'],
-      ['/_posts/', 'Posts']
-    ],
+    // sidebar: [
+    //   // ['/', 'Home'],
+    //   ['/_posts/', 'Posts']
+    // ],
     navbar: true,
     nav: [
       { text: 'Posts', link: '/_posts/'},

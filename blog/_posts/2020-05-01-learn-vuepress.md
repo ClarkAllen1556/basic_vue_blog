@@ -12,10 +12,8 @@ tags:
   - github-pages
   - surge.sh
 meta:
-  description:
-    content: Documenting my trials against Vuejs and it's weird brother, Vuepress.
-  keywords:
-    content: opinion vuejs vuepress markdown frontmatter deployment ci github-pages surge.sh
+  - description: Documenting my trials against Vuejs and it's weird brother, Vuepress.
+  - keywords: opinion vuejs vuepress markdown frontmatter deployment ci github-pages surge.sh
 ---
 
 ## How to learn

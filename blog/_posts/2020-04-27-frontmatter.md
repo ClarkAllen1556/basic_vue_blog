@@ -4,10 +4,8 @@ type: article
 date: 2020-04-29
 author: Allen
 meta:
-  description:
-    content: First real post on this blog ranting about frontmatter.
-  keywords:
-    content: Opinion VueJS Vuepress Markdown Frontmatter
+  - description: First real post on this blog ranting about frontmatter.
+  - keywords: Opinion VueJS Vuepress Markdown Frontmatter
 ---
 
 ## Some notes to go by - I hate frontmatter

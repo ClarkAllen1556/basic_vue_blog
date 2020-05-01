@@ -13,7 +13,8 @@ module.exports = {
     ]
   },
   plugins: [
-    [ "@vuepress/blog", {
+    [
+      "@vuepress/blog", {
       directories: [
         {
           id: '_posts',

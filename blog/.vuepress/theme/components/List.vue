@@ -14,7 +14,7 @@
         <a v-bind:href="post.path">
             <h2 class="title">{{ post.title }}</h2>
         </a>
-        <p class="desc"> {{ post.frontmatter.meta.description.content }} </p>
+        <p class="desc"> {{ post.frontmatter.meta.description }} </p>
       </div>
     </div>
   </div>

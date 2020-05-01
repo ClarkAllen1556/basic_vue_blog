@@ -1,11 +1,31 @@
 ---
-title: Always with the Frontmatter issues
-type: article
-date: 2020-04-29
-author: Allen
-meta:
-  - description: First real post on this blog ranting about frontmatter.
-  - keywords: Opinion VueJS Vuepress Markdown Frontmatter
+{
+  "date": 2020-04-29,
+  "title": "Always with the Frontmatter issues",
+  "description": "First real post on this blog ranting about frontmatter.",
+  "author": "AC1556",
+  "type": "article",
+  "tags": [
+      "opinion",
+      "vuejs",
+      "vuepress",
+      "software",
+      "development",
+      "markdown",
+      "frontmatter"
+  ],
+  "meta": [
+    "keywords": [
+      "opinion",
+      "vuejs",
+      "vuepress",
+      "software",
+      "development",
+      "markdown",
+      "frontmatter"
+    ]
+  ]
+}
 ---
 
 ## Some notes to go by - I hate frontmatter

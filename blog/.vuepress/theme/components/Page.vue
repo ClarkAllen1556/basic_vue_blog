@@ -7,7 +7,7 @@
         <Post
           v-bind:postTitle="$page.frontmatter.title"
           v-bind:postAuthor="$page.frontmatter.author"
-          v-bind:postDate="$page.frontmatter.published"/>
+          v-bind:postDate="$page.frontmatter.date"/>
       </slot>
       <slot v-else-if="$page.frontmatter.type === 'Listings'" name="list">
         <List v-bind:listTitle="$page.frontmatter.title" />
@@ -45,10 +45,4 @@ export default {
 .page
   padding-bottom 2rem
   display block
-
-// .list
-//   position absolute
-//   top 50%
-//   right 50%
-//   transform translate(50%, -50%)
 </style>

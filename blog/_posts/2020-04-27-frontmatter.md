@@ -2,12 +2,11 @@
 title: Always with the Frontmatter issues
 type: article
 date: 2020-04-29
-published: 2020-04-29
 author: Allen
 meta:
-  - name: description
+  description:
     content: First real post on this blog ranting about frontmatter.
-  - name: keywords
+  keywords:
     content: Opinion VueJS Vuepress Markdown Frontmatter
 ---
 
@@ -21,7 +20,7 @@ When making these posts I need to make sure that the `frontmatter` is following 
 ---
 title: <some title>
 type: <some type> # from me
-published: <YYY-MM-DD>
+date: <YYY-MM-DD>
 author: <author>
 sidebar: <0-1-2> # probably don't even need at this point
 meta:

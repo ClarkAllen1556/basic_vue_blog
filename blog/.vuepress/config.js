@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     // Please keep looking down to see the available options.
     lastUpdated: 'Last Updated',
-    search: false,
+    search: true,
     sidebar: [
       // ['/', 'Home'],
       ['/_posts/', 'Posts']

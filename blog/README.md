@@ -10,4 +10,4 @@ sidebar: 2
 
 Welcome to my blog.
 
-hosted at: [github](https://clarkallen1556.github.io/basic_vue_blog/)
+hosted at: [surge.sh](https://onlybasics.surge.sh/)

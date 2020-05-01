@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div class="post-box">
+      <div class="post-container">
         <span>
           <h1> {{ postTitle }} </h1>
           <h3> - {{ postAuthor ? postAuthor : "anon" }} : {{ (new Date(postDate).toLocaleDateString("en-US")) }} </h3>
@@ -21,13 +21,3 @@ export default {
   ]
 }
 </script>
-
-<style scoped lang="stylus">
- .post-box {
-   background: #e6e6e6
-   border-radius: 1em
-   padding: 50px
-   margin: 25px
-   box-shadow: 0 0 10px black
- }
-</style>

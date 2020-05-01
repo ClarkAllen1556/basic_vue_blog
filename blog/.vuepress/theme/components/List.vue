@@ -14,7 +14,7 @@
         <a v-bind:href="post.path">
             <h2 class="title">{{ post.title }}</h2>
         </a>
-        <p class="desc"> {{ post.frontmatter.meta.description }} </p>
+        <p class="desc"> {{ post.frontmatter.description }} </p>
       </div>
     </div>
   </div>
@@ -39,14 +39,6 @@
   };
 </script>
 <style scoped lang="stylus">
-  .post-container {
-    background: #e6e6e6
-    box-shadow: 0 0 10px black
-    border-radius: 1em
-    padding: 1em
-    margin: 1em
-  }
-
   .meta {
     font-size: 12px
     margin-top: 1.5em;
@@ -56,19 +48,19 @@
   }
 
   .date {
-    background: #4adace;
+    background: $dateBackgroundColor;
     color: white;
   }
 
   .keyword {
-    background: #3eaf7c;
+    background: $metaBackgroundColor;
     color: white;
     font-weight: 500;
   }
 
   .title {
     margin-bottom: 20px;
-    border-left: solid .4em #3eaf7c;
+    border-left: solid .4em $accentColor;
     padding: 20px;
   }
 

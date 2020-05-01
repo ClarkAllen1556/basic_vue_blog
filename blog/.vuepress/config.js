@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Basic Blog', // Title for the site. This will be displayed in the navbar.
   theme: 'local', // '@vuepress/theme-blog'
-  base: '/basic_vue_blog/',
+  // base: '/basic_vue_blog/',
   themeConfig: {
     // Please keep looking down to see the available options.
     lastUpdated: 'Last Updated',

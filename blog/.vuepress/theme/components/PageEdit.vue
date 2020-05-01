@@ -8,6 +8,10 @@
     <div v-if="lastUpdated" class="last-updated">
       <span class="prefix">{{ lastUpdatedText }}:</span>
       <span class="time">{{ lastUpdated }}</span>
+      <span>
+        <a href="https://travis-ci.org/ClarkAllen1556/basic_vue_blog">
+        <img src="https://travis-ci.org/ClarkAllen1556/basic_vue_blog.svg?branch=master"></a>
+      </span>
     </div>
   </footer>
 </template>

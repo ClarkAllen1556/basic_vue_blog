@@ -17,8 +17,6 @@
       >{{ $siteTitle }}</span>
     </RouterLink>
 
-    <a href="https://travis-ci.org/ClarkAllen1556/basic_vue_blog"><img src="https://travis-ci.org/ClarkAllen1556/basic_vue_blog.svg?branch=master"></a>
-
     <div
       class="links"
       :style="linksWrapMaxWidth ? {

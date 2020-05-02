@@ -4,7 +4,7 @@
   "title": "Inspecting the inner workings of this basic blog",
   "description": "Let's look at how all the tools used to build this site work together.",
   "author": "AC1556",
-  "type": "article",
+  "type": "draft",
   "tags": [
     "learnings",
     "vuejs",
@@ -31,4 +31,4 @@
 
 ## Is this a mess
 
-Let's get that question out of the way...
+Let's get that question out of the way. Answer, I have no idea. This is my first real tackle at a modern frontend project. Yes, I took "that" web design elective in school, but there the professor had a stern "no frameworks" policy. We had to build, from the ground up, a functional "fullstack" website using HTML/CSS, good old PHP with spicy JavaScript, and SQL

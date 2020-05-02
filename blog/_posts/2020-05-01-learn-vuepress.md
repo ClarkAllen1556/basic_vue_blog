@@ -4,7 +4,7 @@
   "title": "The joys of learning (Vue)press",
   "description": "Documenting my trials against Vuejs and it's weird brother, Vuepress.",
   "author": "AC1556",
-  "type": "article",
+  "type": "draft",
   "tags": [
     "opinion",
     "vuejs",
